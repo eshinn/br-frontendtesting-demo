@@ -14,7 +14,7 @@
 
 describe('TriangleClassifier', function() {
   it('exists', function() {
-    expect(TriangleClassifier).toBeDefined();
+    expect(TriangleClassifier).not().toBeDefined();
   });
 
   it('classifies as scalene 4,3,2', function() {
